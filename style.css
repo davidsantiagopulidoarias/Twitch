@@ -1,0 +1,62 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  
+}
+html {
+    font-size: 62.5%;
+}
+.header {
+    width: 100%;
+    height: 8%;
+    position: absolute;
+    background-color: #1c1b1a;
+}
+.header-izquierda {
+    list-style: none;
+    display: inline-block;
+    height: 100%;
+    width: 33.3%;
+    
+}
+.header-izquierda_logo {
+    height: 60%;
+    position: absolute; top: 20%;
+}
+.header-izquierda_Explorer {
+    height: 100%;
+    width: 100%;
+    position: absolute; top: 28%;left: 4.5%;
+    color: white;
+    font-size: 1.6rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+.header-izquierda_puntitos {
+    height: 35%;
+    position: absolute; top: 30%;left: 10%;
+}
+.header_centro { 
+    display: inline-block;
+    height: 100%;
+    width: 33.3%;
+
+}
+.header_centro_Buscar {
+    position: absolute; top: 20%;left: 36%;
+    color: #c9c8c7;
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(83, 83, 83);
+    padding: 0.5%;right: 38.2%;
+
+}
+.header_centro_lupa {
+    position: absolute; top: 20%;left: 61.5%;
+    height: 58%;
+    background-color:rgb(49, 49, 49);
+    padding: 0.2%;
+}
+
+
