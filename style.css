@@ -6,12 +6,14 @@
 }
 html {
     font-size: 62.5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .header {
     width: 100%;
     height: 8%;
     position: absolute;
     background-color: #1c1b1a;
+
 }
 .header-izquierda {
     list-style: none;
@@ -37,13 +39,13 @@ html {
     height: 35%;
     position: absolute; top: 30%;left: 10%;
 }
-.header_centro { 
+.header-centro { 
     display: inline-block;
     height: 100%;
     width: 33.3%;
-
+    
 }
-.header_centro_Buscar {
+.header-centro_Buscar {
     position: absolute; top: 20%;left: 36%;
     color: #c9c8c7;
     font-size: 1.5rem;
@@ -52,11 +54,29 @@ html {
     padding: 0.5%;right: 38.2%;
 
 }
-.header_centro_lupa {
+.header-centro_lupa {
     position: absolute; top: 20%;left: 61.5%;
     height: 58%;
     background-color:rgb(49, 49, 49);
     padding: 0.2%;
 }
-
-
+.header-derecha {
+    display: inline-block;
+    height: 100%;
+    width: 33.3%;
+    list-style: none;
+    position: absolute;
+    
+}
+.header-derecha_corona {
+    position: absolute;top: 30%;left: 36%;
+    height: 40%;
+}
+.header-derecha_Iniciarsesión {
+    position: absolute; left: 44%;top: 20%;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding: 1.5% 2%;
+    font-size: 1.4rem;
+    border-radius: 4px;
+}
